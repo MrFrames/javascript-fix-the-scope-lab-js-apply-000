@@ -9,7 +9,7 @@ function yourAnimal() {
   return animal
 }
 
-// Moved myAnimal test under yourAnimal test to check if global animal was 
+// Moved myAnimal test under yourAnimal test to check if global animal was
 // redefined (assuming tests run in order).
 
 function add2(n) {
@@ -28,5 +28,5 @@ var funkyFunction = function() {
 // NOTE: you only need to modify the code below this line.
 var theFunk = funkyFunction()()
 
-// Calls funkyFunction with the first (), which returns a function, then 
+// Calls funkyFunction with the first (), which returns a function, then
 // calls that function with the second ()
